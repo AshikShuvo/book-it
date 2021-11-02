@@ -36,3 +36,19 @@ Content-Type: application/json
 
 GET http://localhost:3000/api/rooms/6180d3657dae8e60a6fbe667
 Content-Type: application/json
+
+### update a room info
+
+PUT http://localhost:3000/api/rooms/6180d3657dae8e60a6fbe667
+Content-Type: application/json
+
+{
+   "pricePerNight": 100,
+   "internet":false,
+    "roomCleanings":true
+}
+
+### Delete a room info
+
+DELETE  http://localhost:3000/api/rooms/6180d3657dae8e60a6fbe667
+Content-Type: application/json
