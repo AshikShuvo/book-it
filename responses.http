@@ -50,5 +50,5 @@ Content-Type: application/json
 
 ### Delete a room info
 
-DELETE  http://localhost:3000/api/rooms/6180d3657dae8e60a6fbe667
+DELETE  http://localhost:3000/api/rooms/6180f6d55e97d8f854ff5c43
 Content-Type: application/json
