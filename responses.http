@@ -31,3 +31,8 @@ Content-Type: application/json
 
 GET http://localhost:3000/api/rooms
 Content-Type: application/json
+
+### get a single room
+
+GET http://localhost:3000/api/rooms/6180d3657dae8e60a6fbe667
+Content-Type: application/json
